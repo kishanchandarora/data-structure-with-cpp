@@ -1,0 +1,18 @@
+03:54:36 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input>=48 && input<=57)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp:14:68: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input>=48 && input<=57)
+      |                                                          ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+
+03:54:40 Build Finished. 0 errors, 3 warnings. (took 3s.357ms)
+

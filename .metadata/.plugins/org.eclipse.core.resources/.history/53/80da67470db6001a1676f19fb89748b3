@@ -1,0 +1,61 @@
+//============================================================================
+// Name        : singly_linked_list.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class LinkedList;
+
+class Node {
+	int element;
+	Node *next;
+
+
+public:
+	Node() {
+	element = 0;
+	next = NULL;
+	}
+
+	Node(int element) {
+	this->element = element;
+	next = NULL;
+	}
+
+	friend class LinkedList;
+};
+
+
+class LinkedList {
+	Node *head;
+
+public:
+	LinkedList() {
+		head = NULL;
+	}
+
+
+
+
+
+};
+
+
+
+int main() {
+	int choice;
+	while(1) {
+		cout<<"1. Exit\n2. Insertion\n3. Deletion\n4. Display\n";
+		cout<<"Enter your choice: ";
+		cin>>choice;
+		switch(choice) {
+
+		}
+	}
+	return 0;
+}

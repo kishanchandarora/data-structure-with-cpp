@@ -1,0 +1,6 @@
+00:16:31 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+
+00:16:34 Build Finished. 0 errors, 0 warnings. (took 3s.51ms)
+

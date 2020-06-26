@@ -1,0 +1,7 @@
+01:54:59 **** Incremental Build of configuration Debug for project stack_linked_list_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_linked_list_based.o" "..\\src\\stack_linked_list_based.cpp" 
+g++ -o stack_linked_list_based.exe "src\\stack_linked_list_based.o" 
+
+01:55:02 Build Finished. 0 errors, 0 warnings. (took 3s.435ms)
+

@@ -1,0 +1,22 @@
+03:35:40 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp:33:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+
+03:35:43 Build Finished. 0 errors, 4 warnings. (took 3s.82ms)
+

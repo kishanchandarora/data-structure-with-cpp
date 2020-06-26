@@ -1,0 +1,1471 @@
+00:34:43 **** Clean-only build of configuration Debug for project circular_linked_list ****
+rm -rf circular_linked_list.exe src/circular_linked_list.d src/circular_linked_list.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jdk-13.0.2/bin/server;C:/Program Files/Java/jdk-13.0.2/bin;C:\MinGW\bin;C:\MinGW\libexec\gcc\x86_64-w64-mingw32\9.2.0;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.2\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\kishan chand arora\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-13.0.2\bin;;C:\Users\kishan chand arora\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kishan chand arora\AppData\Roaming\npm;C:\eclipse]
+
+00:34:43 **** Clean-only build of configuration Debug for project circular_linked_list ****
+00:35:04 **** Rebuild of configuration Debug for project circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_linked_list.o" "..\\src\\circular_linked_list.cpp" 
+g++ -o circular_linked_list.exe "src\\circular_linked_list.o" 
+00:45:47 **** Incremental Build of configuration Debug for project circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_linked_list.o" "..\\src\\circular_linked_list.cpp" 
+g++ -o circular_linked_list.exe "src\\circular_linked_list.o" 
+Info: Nothing to build for circular_linked_list
+00:49:05 **** Incremental Build of configuration Debug for project circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_linked_list.o" "..\\src\\circular_linked_list.cpp" 
+g++ -o circular_linked_list.exe "src\\circular_linked_list.o" 
+00:50:53 **** Incremental Build of configuration Debug for project circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_linked_list.o" "..\\src\\circular_linked_list.cpp" 
+g++ -o circular_linked_list.exe "src\\circular_linked_list.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file circular_linked_list.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:51:17 **** Incremental Build of configuration Debug for project circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -o circular_linked_list.exe "src\\circular_linked_list.o" 
+01:02:08 **** Incremental Build of configuration Debug for project circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_linked_list.o" "..\\src\\circular_linked_list.cpp" 
+g++ -o circular_linked_list.exe "src\\circular_linked_list.o" 
+01:19:25 **** Incremental Build of configuration Debug for project circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_linked_list.o" "..\\src\\circular_linked_list.cpp" 
+g++ -o circular_linked_list.exe "src\\circular_linked_list.o" 
+01:34:20 **** Rebuild of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+01:34:30 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In function 'int main()':
+..\src\stack_array_based.cpp:78:16: error: expected ';' before 'st'
+   78 |    cin>>element
+      |                ^
+      |                ;
+   79 |    st.push(element);
+      |    ~~           
+01:34:45 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+Info: Nothing to build for stack_array_based
+Info: Nothing to build for stack_array_based
+01:52:48 **** Rebuild of configuration Debug for project stack_linked_list_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_linked_list_based.o" "..\\src\\stack_linked_list_based.cpp" 
+..\src\stack_linked_list_based.cpp: In function 'int main()':
+..\src\stack_linked_list_based.cpp:109:14: warning: unused variable 'choice1' [-Wunused-variable]
+  109 |  int choice, choice1, element, pos;
+      |              ^~~~~~~
+..\src\stack_linked_list_based.cpp:109:32: warning: unused variable 'pos' [-Wunused-variable]
+  109 |  int choice, choice1, element, pos;
+      |                                ^~~
+g++ -o stack_linked_list_based.exe "src\\stack_linked_list_based.o" 
+Info: Nothing to build for stack_linked_list_based
+01:53:16 **** Incremental Build of configuration Debug for project stack_linked_list_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_linked_list_based.o" "..\\src\\stack_linked_list_based.cpp" 
+g++ -o stack_linked_list_based.exe "src\\stack_linked_list_based.o" 
+01:54:59 **** Incremental Build of configuration Debug for project stack_linked_list_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_linked_list_based.o" "..\\src\\stack_linked_list_based.cpp" 
+g++ -o stack_linked_list_based.exe "src\\stack_linked_list_based.o" 
+02:14:41 **** Rebuild of configuration Debug for project balance_paranthesis ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\balance_paranthesis.o" "..\\src\\balance_paranthesis.cpp" 
+g++ -o balance_paranthesis.exe "src\\balance_paranthesis.o" 
+02:20:57 **** Incremental Build of configuration Debug for project balance_paranthesis ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\balance_paranthesis.o" "..\\src\\balance_paranthesis.cpp" 
+..\src\balance_paranthesis.cpp: In function 'bool areBalanced(std::string)':
+..\src\balance_paranthesis.cpp:18:16: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   18 |  for(int i=0; i<str.length(); i++) {
+      |               ~^~~~~~~~~~~~~
+..\src\balance_paranthesis.cpp:31:25: error: lvalue required as left operand of assignment
+   31 |    if(ch == '}' || ch = ']')
+      |                         ^~~
+..\src\balance_paranthesis.cpp:37:25: error: lvalue required as left operand of assignment
+   37 |    if(ch == ')' || ch = ']')
+      |                         ^~~
+..\src\balance_paranthesis.cpp:43:25: error: lvalue required as left operand of assignment
+   43 |    if(ch == '}' || ch = ')')
+      |                         ^~~
+02:21:30 **** Incremental Build of configuration Debug for project balance_paranthesis ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\balance_paranthesis.o" "..\\src\\balance_paranthesis.cpp" 
+..\src\balance_paranthesis.cpp: In function 'bool areBalanced(std::string)':
+..\src\balance_paranthesis.cpp:18:16: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   18 |  for(int i=0; i<str.length(); i++) {
+      |               ~^~~~~~~~~~~~~
+g++ -o balance_paranthesis.exe "src\\balance_paranthesis.o" 
+02:21:54 **** Incremental Build of configuration Debug for project balance_paranthesis ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\balance_paranthesis.o" "..\\src\\balance_paranthesis.cpp" 
+..\src\balance_paranthesis.cpp: In function 'bool areBalanced(std::string)':
+..\src\balance_paranthesis.cpp:18:16: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   18 |  for(int i=0; i<str.length(); i++) {
+      |               ~^~~~~~~~~~~~~
+g++ -o balance_paranthesis.exe "src\\balance_paranthesis.o" 
+02:22:05 **** Incremental Build of configuration Debug for project balance_paranthesis ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\balance_paranthesis.o" "..\\src\\balance_paranthesis.cpp" 
+..\src\balance_paranthesis.cpp: In function 'bool areBalanced(std::string)':
+..\src\balance_paranthesis.cpp:18:16: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   18 |  for(int i=0; i<str.length(); i++) {
+      |               ~^~~~~~~~~~~~~
+g++ -o balance_paranthesis.exe "src\\balance_paranthesis.o" 
+Info: Nothing to build for balance_paranthesis
+02:51:25 **** Rebuild of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+02:51:57 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'void inToPost(std::string)':
+..\src\infix_to_postfix.cpp:66:16: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   66 |  while(input[i]= '\0') {
+..\src\infix_to_postfix.cpp:100:16: error: expected ';' before ')' token
+  100 |   cout<<s.top());
+      |                ^
+      |                ;
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+02:52:30 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'void inToPost(std::string)':
+..\src\infix_to_postfix.cpp:66:16: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   66 |  while(input[i]= '\0') {
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+02:52:59 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'void inToPost(std::string)':
+..\src\infix_to_postfix.cpp:66:16: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   66 |  while(input[i]= '\0') {
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+02:53:45 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+02:54:28 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+02:54:54 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+02:55:16 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+02:55:52 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+02:56:15 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+02:58:07 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+02:59:42 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+03:00:50 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:31:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   31 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+03:01:30 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:35:21: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   35 |     if (input >= 65 && input <= 90
+      |         ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+   56 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+   73 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+03:02:39 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+Info: Nothing to build for infix_to_postfix
+Info: Nothing to build for infix_to_postfix
+03:04:27 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+03:05:15 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+03:05:26 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+03:33:22 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+03:34:26 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp:33:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+03:35:40 **** Incremental Build of configuration Debug for project infix_to_postfix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_postfix.o" "..\\src\\infix_to_postfix.cpp" 
+..\src\infix_to_postfix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_postfix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_postfix.cpp:33:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_postfix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_postfix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_postfix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_postfix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+g++ -o infix_to_postfix.exe "src\\infix_to_postfix.o" 
+03:35:55 **** Rebuild of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+Info: Nothing to build for postfix_evalution
+03:37:55 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:38:29 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:38:46 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:39:10 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:39:41 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:39:58 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int main()':
+..\src\postfix_evalution.cpp:55:31: error: 's' was not declared in this scope
+   55 |  char input[] = "46*38/7*+6-";s
+      |                               ^
+..\src\postfix_evalution.cpp:55:7: warning: unused variable 'input' [-Wunused-variable]
+   55 |  char input[] = "46*38/7*+6-";s
+      |       ^~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+03:40:08 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+Info: Nothing to build for postfix_evalution
+Info: Nothing to build for postfix_evalution
+03:40:47 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:41:06 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:41:33 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:46:56 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:47:23 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp:64:17: warning: missing terminating " character
+   64 |  char input[] = "46*;
+      |                 ^
+..\src\postfix_evalution.cpp:64:17: error: missing terminating " character
+   64 |  char input[] = "46*;
+      |                 ^~~~~
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int main()':
+..\src\postfix_evalution.cpp:66:32: error: initializer fails to determine size of 'input'
+   66 |  cout<<postfixEvaluation(input)<<endl;;
+      |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+..\src\postfix_evalution.cpp:66:32: error: array must be initialized with a brace-enclosed initializer
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+03:47:42 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:54:13 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input>=48 && input<=57)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp:14:68: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input>=48 && input<=57)
+      |                                                          ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+03:54:36 **** Incremental Build of configuration Debug for project postfix_evalution ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\postfix_evalution.o" "..\\src\\postfix_evalution.cpp" 
+..\src\postfix_evalution.cpp: In function 'int isOperand(char)':
+..\src\postfix_evalution.cpp:14:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input>=48 && input<=57)
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp:14:68: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   14 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input>=48 && input<=57)
+      |                                                          ~~~~~~~~~~^~~~~~~~~~~~
+..\src\postfix_evalution.cpp: In function 'int calculate(int, int, char)':
+..\src\postfix_evalution.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+g++ -o postfix_evalution.exe "src\\postfix_evalution.o" 
+04:13:27 **** Rebuild of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:33:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'char* inToPost(char*)':
+..\src\infix_to_prefix.cpp:111:9: warning: address of local variable 'str' returned [-Wreturn-local-addr]
+  111 |  return str;
+      |         ^~~
+..\src\infix_to_prefix.cpp:67:7: note: declared here
+   67 |  char str[64] = "";
+      |       ^~~
+..\src\infix_to_prefix.cpp: In function 'int main()':
+..\src\infix_to_prefix.cpp:120:24: error: initializer fails to determine size of 'str'
+  120 |   char str[] = inToPost(input);
+      |                ~~~~~~~~^~~~~~~
+..\src\infix_to_prefix.cpp:120:24: error: array must be initialized with a brace-enclosed initializer
+..\src\infix_to_prefix.cpp:121:19: error: 's' was not declared in this scope
+  121 |   cout<<str<<endl;s
+      |                   ^
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+04:13:34 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:33:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'char* inToPost(char*)':
+..\src\infix_to_prefix.cpp:111:9: warning: address of local variable 'str' returned [-Wreturn-local-addr]
+  111 |  return str;
+      |         ^~~
+..\src\infix_to_prefix.cpp:67:7: note: declared here
+   67 |  char str[64] = "";
+      |       ^~~
+..\src\infix_to_prefix.cpp: In function 'int main()':
+..\src\infix_to_prefix.cpp:120:24: error: initializer fails to determine size of 'str'
+  120 |   char str[] = inToPost(input);
+      |                ~~~~~~~~^~~~~~~
+..\src\infix_to_prefix.cpp:120:24: error: array must be initialized with a brace-enclosed initializer
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+04:14:18 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:33:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'char* inToPost(char*)':
+..\src\infix_to_prefix.cpp:111:9: warning: address of local variable 'str' returned [-Wreturn-local-addr]
+  111 |  return str;
+      |         ^~~
+..\src\infix_to_prefix.cpp:67:7: note: declared here
+   67 |  char str[64] = "";
+      |       ^~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+Info: Nothing to build for infix_to_prefix
+04:15:22 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:33:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:33:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   33 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:21:25 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:22:19 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:23:10 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:23:57 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'char* inToPost(std::string)':
+..\src\infix_to_prefix.cpp:113:9: error: cannot convert 'std::string' {aka 'std::__cxx11::basic_string<char>'} to 'char*' in return
+  113 |  return str;
+      |         ^~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+04:24:25 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:27:50 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: At global scope:
+..\src\infix_to_prefix.cpp:117:6: error: ambiguating new declaration of 'void strrev(char*)'
+  117 | void strrev(char *str)
+      |      ^~~~~~
+In file included from c:\mingw\include\c++\9.2.0\cstring:42,
+                 from c:\mingw\include\c++\9.2.0\x86_64-w64-mingw32\bits\stdc++.h:48,
+                 from ..\src\infix_to_prefix.cpp:9:
+c:\mingw\x86_64-w64-mingw32\include\string.h:123:17: note: old declaration 'char* strrev(char*)'
+  123 |   char *__cdecl strrev(char *_Str) __MINGW_ATTRIB_DEPRECATED_MSVC2005;
+      |                 ^~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+04:28:13 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:28:53 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:30:21 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: At global scope:
+..\src\infix_to_prefix.cpp:65:17: error: array must be initialized with a brace-enclosed initializer
+   65 | char *str[64] = "";
+      |                 ^~
+..\src\infix_to_prefix.cpp: In function 'void inToPost(char*)':
+..\src\infix_to_prefix.cpp:74:22: error: invalid conversion from 'char' to 'char*' [-fpermissive]
+   74 |    str[k++] = input[i];
+      |               ~~~~~~~^
+      |                      |
+      |                      char
+..\src\infix_to_prefix.cpp:81:22: error: invalid conversion from '__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type' {aka 'char'} to 'char*' [-fpermissive]
+   81 |      str[k++] = s.top();
+      |                 ~~~~~^~
+      |                      |
+      |                      __gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type {aka char}
+..\src\infix_to_prefix.cpp:89:21: error: invalid conversion from '__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type' {aka 'char'} to 'char*' [-fpermissive]
+   89 |     str[k++] = s.top();
+      |                ~~~~~^~
+      |                     |
+      |                     __gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type {aka char}
+..\src\infix_to_prefix.cpp:108:19: error: invalid conversion from '__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type' {aka 'char'} to 'char*' [-fpermissive]
+  108 |   str[k++] = s.top();
+      |              ~~~~~^~
+      |                   |
+      |                   __gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type {aka char}
+..\src\infix_to_prefix.cpp:112:11: error: invalid conversion from 'char' to 'char*' [-fpermissive]
+  112 |  str[k] = '\0';
+      |           ^~~~
+      |           |
+      |           char
+..\src\infix_to_prefix.cpp: In function 'std::string inToPre(char*)':
+..\src\infix_to_prefix.cpp:154:16: error: cannot convert 'char**' to 'char*'
+  154 |  return strrev(str);
+      |                ^~~
+      |                |
+      |                char**
+In file included from c:\mingw\include\c++\9.2.0\cstring:42,
+                 from c:\mingw\include\c++\9.2.0\x86_64-w64-mingw32\bits\stdc++.h:48,
+                 from ..\src\infix_to_prefix.cpp:9:
+c:\mingw\x86_64-w64-mingw32\include\string.h:123:30: note:   initializing argument 1 of 'char* strrev(char*)'
+  123 |   char *__cdecl strrev(char *_Str) __MINGW_ATTRIB_DEPRECATED_MSVC2005;
+      |                        ~~~~~~^~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+04:30:50 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:31:46 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int main()':
+..\src\infix_to_prefix.cpp:157:8: warning: unused variable 'input' [-Wunused-variable]
+  157 |   char input[] = "a+b*c-(d/e+f*g*h)";
+      |        ^~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:32:22 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:33:23 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:37:46 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+04:39:10 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int inPrec(char)':
+..\src\infix_to_prefix.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+..\src\infix_to_prefix.cpp: In function 'int outPrec(char)':
+..\src\infix_to_prefix.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+20:24:12 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int priority(char)':
+..\src\infix_to_prefix.cpp:39:2: error: case label '')'' not within a switch statement
+   39 |  case ')': return 1;
+      |  ^~~~
+..\src\infix_to_prefix.cpp:40:2: error: case label ''+'' not within a switch statement
+   40 |  case '+':
+      |  ^~~~
+..\src\infix_to_prefix.cpp:41:2: error: case label ''-'' not within a switch statement
+   41 |  case '-': return 2;
+      |  ^~~~
+..\src\infix_to_prefix.cpp:42:2: error: case label ''*'' not within a switch statement
+   42 |  case '*':
+      |  ^~~~
+..\src\infix_to_prefix.cpp:43:2: error: case label ''/'' not within a switch statement
+   43 |  case '/': return 5;
+      |  ^~~~
+..\src\infix_to_prefix.cpp: In function 'void inToPre(char*, char*)':
+..\src\infix_to_prefix.cpp:77:13: error: cannot convert 'std::stack<char>::empty' from type 'bool (std::stack<char>::)() const' to type 'bool'
+   77 |    while(!s.empty && priority(input[i])<=priority(s.top())) {
+      |             ^~~~~
+..\src\infix_to_prefix.cpp:77:13: error: in argument to unary !
+20:24:53 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'void inToPre(char*, char*)':
+..\src\infix_to_prefix.cpp:79:13: error: cannot convert 'std::stack<char>::empty' from type 'bool (std::stack<char>::)() const' to type 'bool'
+   79 |    while(!s.empty && priority(input[i])<=priority(s.top())) {
+      |             ^~~~~
+..\src\infix_to_prefix.cpp:79:13: error: in argument to unary !
+..\src\infix_to_prefix.cpp: In function 'int priority(char)':
+..\src\infix_to_prefix.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+20:25:10 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int priority(char)':
+..\src\infix_to_prefix.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+20:27:53 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int priority(char)':
+..\src\infix_to_prefix.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+20:29:43 **** Incremental Build of configuration Debug for project infix_to_prefix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\infix_to_prefix.o" "..\\src\\infix_to_prefix.cpp" 
+..\src\infix_to_prefix.cpp: In function 'int isOperand(char)':
+..\src\infix_to_prefix.cpp:34:15: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |     ~~~~~~~~~~^~~~~~~~~~~~
+..\src\infix_to_prefix.cpp:34:70: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   34 |  if(input>=65 && input<=90 || input>=97 && input<=122 || input >= 48 && input <= 57 )
+      |                                                          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\infix_to_prefix.cpp: In function 'int priority(char)':
+..\src\infix_to_prefix.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+g++ -o infix_to_prefix.exe "src\\infix_to_prefix.o" 
+21:28:10 **** Rebuild of configuration Debug for project queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_array_based.o" "..\\src\\queue_array_based.cpp" 
+g++ -o queue_array_based.exe "src\\queue_array_based.o" 
+Info: Nothing to build for queue_array_based
+Info: Nothing to build for queue_array_based
+Info: Nothing to build for queue_array_based
+21:30:27 **** Incremental Build of configuration Debug for project queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_array_based.o" "..\\src\\queue_array_based.cpp" 
+g++ -o queue_array_based.exe "src\\queue_array_based.o" 
+21:30:53 **** Incremental Build of configuration Debug for project queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_array_based.o" "..\\src\\queue_array_based.cpp" 
+g++ -o queue_array_based.exe "src\\queue_array_based.o" 
+21:32:50 **** Incremental Build of configuration Debug for project queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_array_based.o" "..\\src\\queue_array_based.cpp" 
+g++ -o queue_array_based.exe "src\\queue_array_based.o" 
+Info: Nothing to build for queue_array_based
+21:42:24 **** Rebuild of configuration Debug for project queue_link_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_link_based.o" "..\\src\\queue_link_based.cpp" 
+g++ -o queue_link_based.exe "src\\queue_link_based.o" 
+Info: Nothing to build for singly_linked_list
+21:42:41 **** Incremental Build of configuration Debug for project queue_link_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_link_based.o" "..\\src\\queue_link_based.cpp" 
+g++ -o queue_link_based.exe "src\\queue_link_based.o" 
+21:43:23 **** Incremental Build of configuration Debug for project queue_link_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_link_based.o" "..\\src\\queue_link_based.cpp" 
+g++ -o queue_link_based.exe "src\\queue_link_based.o" 
+21:44:51 **** Incremental Build of configuration Debug for project queue_link_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_link_based.o" "..\\src\\queue_link_based.cpp" 
+g++ -o queue_link_based.exe "src\\queue_link_based.o" 
+21:45:43 **** Incremental Build of configuration Debug for project queue_link_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\queue_link_based.o" "..\\src\\queue_link_based.cpp" 
+g++ -o queue_link_based.exe "src\\queue_link_based.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file queue_link_based.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:46:20 **** Incremental Build of configuration Debug for project queue_link_based ****
+Info: Internal Builder is used for build
+g++ -o queue_link_based.exe "src\\queue_link_based.o" 
+22:18:51 **** Rebuild of configuration Debug for project circular_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue.o" "..\\src\\circular_queue.cpp" 
+..\src\circular_queue.cpp:63:1: error: 'b' does not name a type
+   63 | b
+      | ^
+..\src\circular_queue.cpp: In function 'int main()':
+..\src\circular_queue.cpp:112:6: error: 'class CircularQueue' has no member named 'display'
+  112 |    q.display();
+      |      ^~~~~~~
+Info: Nothing to build for queue_array_based
+Info: Nothing to build for queue_link_based
+22:19:33 **** Incremental Build of configuration Debug for project circular_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue.o" "..\\src\\circular_queue.cpp" 
+..\src\circular_queue.cpp:63:1: error: 'b' does not name a type
+   63 | b
+      | ^
+..\src\circular_queue.cpp: In function 'int main()':
+..\src\circular_queue.cpp:112:6: error: 'class CircularQueue' has no member named 'display'
+  112 |    q.display();
+      |      ^~~~~~~
+22:19:49 **** Incremental Build of configuration Debug for project circular_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue.o" "..\\src\\circular_queue.cpp" 
+g++ -o circular_queue.exe "src\\circular_queue.o" 
+Info: Nothing to build for circular_queue
+22:22:01 **** Incremental Build of configuration Debug for project circular_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue.o" "..\\src\\circular_queue.cpp" 
+g++ -o circular_queue.exe "src\\circular_queue.o" 
+Info: Nothing to build for circular_queue
+Info: Nothing to build for circular_queue
+22:26:29 **** Incremental Build of configuration Debug for project circular_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue.o" "..\\src\\circular_queue.cpp" 
+g++ -o circular_queue.exe "src\\circular_queue.o" 
+Info: Nothing to build for circular_queue
+22:29:21 **** Incremental Build of configuration Debug for project circular_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue.o" "..\\src\\circular_queue.cpp" 
+g++ -o circular_queue.exe "src\\circular_queue.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file circular_queue.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:30:58 **** Incremental Build of configuration Debug for project circular_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue.o" "..\\src\\circular_queue.cpp" 
+g++ -o circular_queue.exe "src\\circular_queue.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file circular_queue.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:31:34 **** Incremental Build of configuration Debug for project circular_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue.o" "..\\src\\circular_queue.cpp" 
+g++ -o circular_queue.exe "src\\circular_queue.o" 
+22:35:54 **** Incremental Build of configuration Debug for project circular_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue.o" "..\\src\\circular_queue.cpp" 
+g++ -o circular_queue.exe "src\\circular_queue.o" 
+Info: Nothing to build for circular_queue
+23:42:50 **** Rebuild of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+23:43:11 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+..\src\double_ended_queue.cpp: In member function 'bool Deque::isFull()':
+..\src\double_ended_queue.cpp:29:42: error: 'fron' was not declared in this scope; did you mean 'front'?
+   29 |   if((front == 0 && rear == SIZE - 1) || fron == rear + 1 )
+      |                                          ^~~~
+      |                                          front
+23:43:25 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+..\src\double_ended_queue.cpp: In function 'int main()':
+..\src\double_ended_queue.cpp:148:26: warning: 'value' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  148 |     case 1: d.enQueueRear(value);
+      |             ~~~~~~~~~~~~~^~~~~~~
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+23:45:06 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+Info: Nothing to build for double_ended_queue
+23:48:43 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+23:49:53 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+Info: Nothing to build for double_ended_queue
+23:50:46 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+23:52:01 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+23:53:04 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+23:53:44 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+23:55:22 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+23:56:10 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+..\src\double_ended_queue.cpp: In function 'int main()':
+..\src\double_ended_queue.cpp:210:17: warning: 'ch1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  210 |  }while(ch1=='y'||ch1=='Y');
+      |         ~~~~~~~~^~~~~~~~~~
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+23:57:09 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+00:01:38 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+..\src\double_ended_queue.cpp: In function 'int main()':
+..\src\double_ended_queue.cpp:207:3: error: case label '3' not within a switch statement
+  207 |   case 3:
+      |   ^~~~
+..\src\double_ended_queue.cpp:209:3: error: case label not within a switch statement
+  209 |   default: cout<<"Wrong choice"<<endl;
+      |   ^~~~~~~
+..\src\double_ended_queue.cpp:128:6: warning: unused variable 'ch' [-Wunused-variable]
+  128 |  int ch, ch1;
+      |      ^~
+..\src\double_ended_queue.cpp:128:10: warning: unused variable 'ch1' [-Wunused-variable]
+  128 |  int ch, ch1;
+      |          ^~~
+00:02:11 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+..\src\double_ended_queue.cpp: In function 'int main()':
+..\src\double_ended_queue.cpp:128:6: warning: unused variable 'ch' [-Wunused-variable]
+  128 |  int ch, ch1;
+      |      ^~
+..\src\double_ended_queue.cpp:128:10: warning: unused variable 'ch1' [-Wunused-variable]
+  128 |  int ch, ch1;
+      |          ^~~
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+00:07:05 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+..\src\double_ended_queue.cpp: In function 'int main()':
+..\src\double_ended_queue.cpp:128:6: warning: unused variable 'ch' [-Wunused-variable]
+  128 |  int ch, ch1;
+      |      ^~
+..\src\double_ended_queue.cpp:128:10: warning: unused variable 'ch1' [-Wunused-variable]
+  128 |  int ch, ch1;
+      |          ^~~
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file double_ended_queue.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:07:38 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+00:09:50 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file double_ended_queue.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:10:09 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+00:11:24 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+00:14:15 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+00:15:51 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\double_ended_queue.o" "..\\src\\double_ended_queue.cpp" 
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file double_ended_queue.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:16:31 **** Incremental Build of configuration Debug for project double_ended_queue ****
+Info: Internal Builder is used for build
+g++ -o double_ended_queue.exe "src\\double_ended_queue.o" 

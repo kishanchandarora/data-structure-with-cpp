@@ -1,0 +1,211 @@
+//============================================================================
+// Name        : double_ended_queue.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+#define SIZE 5
+
+class Deque {
+	int arr[SIZE];
+	int front, rear;
+
+public:
+	Deque() {
+		for(int i=0; i<SIZE; i++) {
+			arr[i] = -1;
+			front = -1;
+			rear = 0;
+		}
+	}
+
+
+	bool isFull() {
+		if((front == 0 && rear == SIZE - 1) || front == rear + 1 )
+			return true;
+		return false;
+	}
+
+	void enQueueRear(int value) {
+		if(isFull())
+			cout<<"Queue is full!!!"<<endl;
+		else {
+			if(front == -1)
+				rear = front = 0;
+			else if(rear == SIZE - 1)
+				rear = 0;
+			else
+				rear = rear + 1;
+			arr[rear] = value;
+		}
+	}
+
+	void enQueueFront(int value) {
+		if(isFull())
+			cout<<"Queue is full!!!"<<endl;
+		else {
+			if(front == -1)
+				rear = front = 0;
+			else if(front == 0)
+				front = SIZE - 1;
+			else
+				front = front - 1;
+			arr[front] = value;
+		}
+	}
+
+	bool isEmpty() {
+		if(front == -1)
+			return true;
+		return false;
+	}
+
+
+	void deQueueRear() {
+		if(isEmpty())
+			cout<<"Queue is empty!!"<<endl;
+		else {
+			if(front == rear)
+				rear = front = -1;
+			else if (rear == 0)
+				rear = SIZE -1;
+			else
+				rear = rear - 1;
+		}
+	}
+
+	void deQueueFront() {
+		if(isEmpty())
+			cout<<"Queue is empty!!"<<endl;
+		else {
+			if(front == rear)
+				rear = front = -1;
+			else if (front == SIZE - 1 )
+				front = 0;
+			else
+				front = front + 1;
+		}
+	}
+
+	void display() {
+		if(isEmpty())
+			cout<<"Queue is EMPTY!!!"<<endl;
+		else {
+			int i = front ;
+
+			if(front <= rear) {
+				while(i<=rear) {
+					cout<<arr[i]<<"\t";
+					i++;
+				}
+				cout<<endl;
+			}
+			else {
+				while(i < SIZE) {
+					cout<<arr[i]<<"\t";
+					i++;
+				}
+
+				i=0;
+				while(i<=rear) {
+					cout<<arr[i]<<"\t";
+					i++;
+				}
+				cout<<endl;
+			}
+		}
+
+	}
+
+};
+
+int main() {
+	int ch, ch1;
+	int choice1, choice2, value;
+	Deque d;
+	cout<<"\n******* Type of Double Ended Queue *******\n";
+	do
+	{
+		cout<<"\n1.Input-restricted deque \n";
+		cout<<"2.output-restricted deque \n";
+		cout<<"3. Exit\n";
+		cout<<"\nEnter your choice of Queue Type : ";
+		cin>>choice1;
+		switch(choice1)
+		{
+		case 1:
+			do
+			{
+				cout<<"\nSelect the Operation\n";
+				cout<<"1.Insert\n2.Delete from Rear\n3.Delete from Front\n4. Display\n5. Exit\n";
+				cout<<"\nEnter your choice for the operation in c deque: ";
+				cin>>choice2;
+				switch(choice2)
+				{
+				case 1:
+					cout<<"Enter element you want to insert: ";
+					cin>>value;
+					d.enQueueRear(value);
+					break;
+				case 2: d.deQueueRear();
+				cout<<"\nValue is deleted"<<endl;
+				break;
+				case 3: d.deQueueFront();
+				cout<<"\nValue is deleted"<<endl;
+				break;
+				case 4: d.display();
+				break;
+				case 5:
+					break;
+				default:cout<<"Wrong choice"<<endl;
+				}
+			}while(choice1 != 5);
+			break;
+
+		case 2 :
+			do
+			{
+				cout<<"\n---- Select the Operation ----\n";
+				cout<<"1. Insert at Rear\n2. Insert at Front\n3. Delete\n4. Display\n5. Exit\n";
+				cout<<"\nEnter your choice for the operation: ";
+				scanf("%d",&choice2);
+				switch(choice2)
+				{
+				case 1:
+					cout<<"Enter element you want to insert: ";
+					cin>>value;
+					d.enQueueRear(value);
+					d.display();
+					break;
+				case 2:
+					cout<<"Enter element you want to insert: ";
+					cin>>value;
+					d.enQueueFront(value);
+					d.display();
+					break;
+				case 3: d.deQueueFront();
+				cout<<"\nValue is deleted"<<endl;
+				d.display();
+				break;
+				case 4: d.display();
+				break;
+				case 5:
+					break;
+				default:cout<<"Wrong choice"<<endl;
+				}
+			} while(choice2!=5);
+			break ;
+		case 3:
+			break;
+		default: cout<<"Wrong choice"<<endl;
+		}
+
+	}while(choice1 != 3);
+
+	return 0;
+}

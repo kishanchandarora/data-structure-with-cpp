@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : sparse_matrix.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+int main() {
+	int arr[5][6] = {
+			{0, 0, 0, 0, 0, 1},
+			{0, 0, 0, 0, 2, 0},
+			{0, 0, 0, 3, 0, 0},
+			{0, 0, 4, 0, 0, 0},
+			{0, 5, 0, 0, 6, 0}
+	};
+	int size = 0;
+	cout<<"lskjdfklsdf";
+	for(int i=0; i<5; i++) {
+		for(int j=0; i<6; j++) {
+			if(arr[i][j] != 0)
+				size++;
+		}
+	}
+
+	cout<<size;
+	return 0;
+}
